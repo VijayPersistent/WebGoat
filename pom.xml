@@ -192,9 +192,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven-compiler-plugin.version}</version>
                 <configuration>
-                    <source>15</source>
-                    <target>15</target>
-                    <encoding>UTF-8</encoding>
+                    <maven.compiler.source>15</maven.compiler.source>
+                    <maven.compiler.target>15</maven.compiler.target>
                 </configuration>
             </plugin>
             <plugin>
